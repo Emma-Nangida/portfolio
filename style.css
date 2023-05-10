@@ -1,0 +1,35 @@
+body{
+    
+}
+.navigation a{
+    padding: 5%;
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+    background-color:black;
+    border-radius: 10%;
+  
+    }
+.landingpage{
+    display: grid; 
+    grid-template-columns: repeat(2,fr1); 
+    background-color:black;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    border-radius: 10%;
+    }
+    .landingpage .image img{
+        height: 90vh;
+        width: 40%;
+        margin-left: 50%;
+        margin-top: -200%;
+        border-radius: 40%;
+        padding:0% ;
+    }
+    .landingpage .about{
+        font-size: larger;
+        text-decoration: none;
+        color: aqua;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
